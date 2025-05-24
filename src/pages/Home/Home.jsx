@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { category } from '../../category';
-import Product from '../../components/Product/Product';
+import Product from '../../components/Product/product';
 import { dummydata } from '../../dummydata';
 import Footer from '../../components/Footer/Footer';
 import './Home.css';
