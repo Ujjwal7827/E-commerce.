@@ -1,0 +1,109 @@
+.nav {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 0px 10px rgb(14, 13, 13);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.top-nav {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 29, 33);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #16a34a; /* Tailwind green-600 */
+  }
+  
+  @media (min-width: 640px) {
+    .logo {
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .logo {
+      font-size: 2rem;
+    }
+  }
+  
+
+.top-nav .logo {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.top-nav .search-box {
+    width: 40%;
+    height: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.top-nav .search-box input {
+    width: 70%;
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.top-nav .search-box button {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 30px;
+    background-color: white;
+    border: none;
+    padding-right: 20px;
+}
+.cart-box{
+    position: relative;
+}
+
+.cart-box svg {
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.cart-box span{
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    font-size: 1.05rem;
+    left: 15px;
+}
+
+@media (max-width:800px) {
+    .top-nav .search-box{
+        display: none;
+    }
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+}

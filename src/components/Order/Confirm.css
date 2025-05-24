@@ -1,0 +1,122 @@
+.Payment-main{
+    backdrop-filter:blur(5px);
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+   
+    
+}
+.Payment-main:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.Payment-sec{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+
+}
+#payment-method{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+}
+#payment-method option{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+   
+}
+.Close-btn{
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+    border: none;
+    padding:  5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.Close-btn:hover{
+    background-color: darkred;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.Procced-btn{
+    background-color: green;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    padding:  5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+.Procced-btn:hover{
+    background-color: darkgreen;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.confirmation-message {
+    color: #00ff99;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  
